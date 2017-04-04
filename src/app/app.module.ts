@@ -5,7 +5,6 @@ import { HttpModule } from '@angular/http';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { routing } from './app.routing';
-
 import { AppComponent } from './app.component';
 import { StartComponent } from './start/start.component';
 import { PhoneOneComponent } from './phone-one/phone-one.component';

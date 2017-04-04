@@ -10,6 +10,8 @@ import { AppComponent } from './app.component';
 import { StartComponent } from './start/start.component';
 import { PhoneOneComponent } from './phone-one/phone-one.component';
 import { PhoneTwoComponent } from './phone-two/phone-two.component';
+import { DoorOneComponent } from './door-one/door-one.component';
+import { InsideOneComponent } from './inside-one/inside-one.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -23,7 +25,9 @@ export const firebaseConfig = {
     AppComponent,
     StartComponent,
     PhoneOneComponent,
-    PhoneTwoComponent
+    PhoneTwoComponent,
+    DoorOneComponent,
+    InsideOneComponent
   ],
   imports: [
     BrowserModule,

@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class PhoneOneComponent {
 
-  constructor(private route: Router) { }
+  constructor(private router: Router) { }
 
   goToPhoneTwo() {
     this.router.navigate(['phone-two']);

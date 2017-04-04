@@ -7,6 +7,8 @@ import { DoorOneComponent } from './door-one/door-one.component';
 import { InsideOneComponent } from './inside-one/inside-one.component';
 import { ResultOneComponent } from './result-one/result-one.component';
 import { OutsideOneComponent } from './outside-one/outside-one.component';
+import { GarageOneComponent } from './garage-one/garage-one.component';
+import { GarageTwoComponent } from './garage-two/garage-two.component';
 
 
 const appRoutes: Routes = [
@@ -37,6 +39,14 @@ const appRoutes: Routes = [
   {
     path: 'outside-one',
     component: OutsideOneComponent
+  },
+  {
+    path: 'garage-one',
+    component: GarageOneComponent
+  },
+  {
+    path: 'garage-two',
+    component: GarageTwoComponent
   }
 
 ];

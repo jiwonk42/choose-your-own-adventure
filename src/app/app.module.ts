@@ -14,6 +14,8 @@ import { DoorOneComponent } from './door-one/door-one.component';
 import { InsideOneComponent } from './inside-one/inside-one.component';
 import { ResultOneComponent } from './result-one/result-one.component';
 import { OutsideOneComponent } from './outside-one/outside-one.component';
+import { GarageOneComponent } from './garage-one/garage-one.component';
+import { GarageTwoComponent } from './garage-two/garage-two.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -31,7 +33,9 @@ export const firebaseConfig = {
     DoorOneComponent,
     InsideOneComponent,
     ResultOneComponent,
-    OutsideOneComponent
+    OutsideOneComponent,
+    GarageOneComponent,
+    GarageTwoComponent
   ],
   imports: [
     BrowserModule,

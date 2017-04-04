@@ -14,6 +14,7 @@ export class OutsideOneComponent {
   constructor(private router: Router, private playerService: PlayerService) { }
 
   goToGarageOne() {
+    this.playerService.addPoints(5);
     this.router.navigate(['garage-one']);
   }
 

@@ -14,4 +14,8 @@ export class DoorOneComponent {
     this.router.navigate(['inside-one']);
   }
 
+  goToOutsideOne() {
+    this.router.navigate(['outside-one']);
+  }
+
 }

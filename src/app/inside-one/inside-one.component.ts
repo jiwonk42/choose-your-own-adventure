@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-inside-one',
   templateUrl: './inside-one.component.html',
   styleUrls: ['./inside-one.component.css']
 })
-export class InsideOneComponent implements OnInit {
+export class InsideOneComponent {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
-  ngOnInit() {
+  goToResultOne() {
+    this.router.navigate(['result-one']);
   }
 
 }

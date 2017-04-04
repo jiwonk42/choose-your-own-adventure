@@ -14,4 +14,8 @@ export class PhoneOneComponent {
     this.router.navigate(['phone-two']);
   }
 
+  goToDoorOne() {
+    this.router.navigate(['door-one']);
+  }
+
 }

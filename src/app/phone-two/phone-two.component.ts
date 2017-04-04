@@ -1,15 +1,18 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-phone-two',
   templateUrl: './phone-two.component.html',
   styleUrls: ['./phone-two.component.css']
 })
-export class PhoneTwoComponent implements OnInit {
+export class PhoneTwoComponent {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
-  ngOnInit() {
+
+  goToDoorOne() {
+    this.router.navigate(['door-one']);
   }
 
 }

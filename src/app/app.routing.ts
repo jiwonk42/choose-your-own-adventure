@@ -1,5 +1,6 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { PlayerInputComponent } from './player-input/player-input.component';
 import { StartComponent } from './start/start.component';
 import { PhoneOneComponent } from './phone-one/phone-one.component';
 import { PhoneTwoComponent } from './phone-two/phone-two.component';
@@ -14,6 +15,10 @@ import { GarageTwoComponent } from './garage-two/garage-two.component';
 const appRoutes: Routes = [
   {
     path: '',
+    component: PlayerInputComponent
+  },
+  {
+    path: 'start',
     component: StartComponent
   },
   {

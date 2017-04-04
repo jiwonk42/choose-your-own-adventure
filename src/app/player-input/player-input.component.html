@@ -1,0 +1,11 @@
+<div *ngIf="currentPlayer">
+  <button (click)="startGameWithPlayer(); ">Start Game</button>
+</div>
+
+<div *ngIf="!currentPlayer">
+  <p>
+    Enter Your Name:
+  </p>
+  <input #playerName>
+  <button (click)="startGame(playerName.value); playerName.value='';">Start Game</button>
+</div>
